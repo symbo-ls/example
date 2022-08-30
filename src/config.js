@@ -11,6 +11,11 @@ const AvenirDemiBold = '/avenir/6afe4676-059a-4aa8-b891-29856bbcba22.woff2'
 const AvenirBold = '/avenir/14c73713-e4df-4dba-933b-057feeac8dd1.woff2'
 const AvenirHeavy = '/avenir/5c57b2e2-f641-421e-a95f-65fcb47e409a.woff2'
 
+
+/**
+ * Colors
+ * @tutorial https://docs.symbols.app/color
+ */
 const COLOR = {
   transparent: 'transparent',
   black: 'black',
@@ -45,6 +50,10 @@ const COLOR = {
   gray12: '#e9e9ea',
 }
 
+/**
+ * Gradients
+ * @tutorial https://docs.symbols.app/color
+ */
 const GRADIENT = {
   dotsDark: `radial-gradient(#252527 6%, transparent 6%)`,
   dotsLight: `radial-gradient(#cfcfd1 6%, transparent 6%)`,
@@ -79,6 +88,10 @@ const GRADIENT = {
   )`
 }
 
+/**
+ * Themes
+ * @tutorial https://docs.symbols.app/theme
+ */
 const THEME = {
   transparent: {
     variants: {
@@ -173,6 +186,10 @@ const THEME = {
   }
 }
 
+/**
+ * Fonts
+ * @tutorial https://docs.symbols.app/font
+ */
 const FONT = {
   smbls: [{
     url: S3_BUCKET + AvenirLight,
@@ -195,6 +212,10 @@ const FONT = {
   }]
 }
 
+/**
+ * Font families
+ * @tutorial https://docs.symbols.app/font
+ */
 const FONT_FAMILY = {
   smbls: {
     isDefault: true,
@@ -207,6 +228,11 @@ const FONT_FAMILY = {
   }
 }
 
+/**
+ * Typography
+ * @tutorial https://docs.symbols.app/typography
+ * @tutorial https://docs.symbols.app/sequence
+ */
 const TYPOGRAPHY = {
   base: 18,
   ratio: 1.2,
@@ -226,6 +252,11 @@ const TYPOGRAPHY = {
   }
 }
 
+/**
+ * Spacing
+ * @tutorial https://docs.symbols.app/spacing
+ * @tutorial https://docs.symbols.app/sequence
+ */
 const SPACING = {
   '@tabletM': {
     ratio: 1.5

@@ -8,9 +8,9 @@
   "main": "src/index.js",
   "scripts": {
     "prestart": "rm -rf .cache dist",
-    "start": "parcel src/index.html --port 1232 --no-cache --hmr-port 12320",
+    "start": "parcel src/index.html --no-cache",
     "start:protected": "npm run prestart && parcel index.html",
-    "prebuild": "rm -rf dist",
+    "prebuild": "rm -rf .cache dist",
     "build": "parcel build index.html",
     "build:protected": "parcel build index.html --no-source-maps --no-content-hash",
     "reinstall": "rm -rf node_modules/@symbo.ls node_modules/@domql node_modules/domql node_modules/smbls dist yarn.lock .cache && yarn"
