@@ -1,15 +1,13 @@
 'use strict'
 
 import './config'
-
 import DOM from 'domql'
-import App from './app'
-import { transformEmotion } from '@domql/transform-emotion'
+import 'domql/packages/emotion'
 
-const app = DOM.create(App, null, null, {
-  transform: {
-    transformEmotion
-  }
+import * as smbls from 'smbls'
+
+import { App } from './app'
+
+export default DOM.create(App, undefined, 'app', {
+  extend: smbls.Box // Every component is a Box
 })
-
-console.log(app.button.ref.class)
