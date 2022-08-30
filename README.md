@@ -1,5 +1,5 @@
-# Symbols Starter Kit
-Example of [Symbols](https://symbols.dev/) component.
+# Symbols examples
+Example [Symbols](https://symbols.dev/) components.
 
 ### Setup
 
