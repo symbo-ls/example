@@ -1,13 +1,11 @@
 # Symbols Starter Kit
-Example dev setup (boilerplate) to use [DOMQL](https://github.com/rackai/domql). You can also check live editor [Playground](https://domql.com/playground/).
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rackai/domql-example)
+Example of [Symbols](https://symbols.dev/) component.
 
 ### Setup
 
 1. Clone the repo
 ```
-git clone git@github.com:symbo-ls/starter-kit.git
+git clone git@github.com:symbo-ls/example.git
 ```
 
 2. Install scripts
