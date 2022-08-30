@@ -31,7 +31,6 @@ const COLOR = {
   grassgreen: '#6A9A55',
 
   gray: '#57575c',
-
   gray1: '#0C0C0D',
   gray2: '#141416',
   gray3: '#1C1C1F',
@@ -46,7 +45,7 @@ const COLOR = {
   gray12: '#e9e9ea',
 }
 
-export const GRADIENT = {
+const GRADIENT = {
   dotsDark: `radial-gradient(#252527 6%, transparent 6%)`,
   dotsLight: `radial-gradient(#cfcfd1 6%, transparent 6%)`,
 
