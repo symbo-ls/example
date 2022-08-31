@@ -1,6 +1,8 @@
 # Symbols examples
 Example [Symbols](https://symbols.dev/) components.
 
+Open in [Codesandbox](https://go.symbo.ls/example-codesandbox), [VS Code](https://go.symbo.ls/example-vscode)
+
 ### Setup
 
 1. Clone the repo
