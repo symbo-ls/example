@@ -1,6 +1,6 @@
 'use strict'
 
-import { Flex } from 'smbls'
+import { Flex, DatePicker } from 'smbls'
 import { Card } from './Card'
 
 export const App = {

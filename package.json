@@ -16,7 +16,7 @@
     "reinstall": "rm -rf node_modules/@symbo.ls node_modules/@domql node_modules/domql node_modules/smbls dist yarn.lock .cache && yarn"
   },
   "dependencies": {
-    "smbls": "^0.11.0",
+    "smbls": "^0.15.0",
     "domql": "^1.5.0"
   },
   "devDependencies": {
