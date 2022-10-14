@@ -1,6 +1,6 @@
 "use strict";
 
-import "./config";
+import SYSTEM from "./config";
 
 import DOM from "domql";
 import "domql/packages/emotion";
@@ -10,5 +10,5 @@ import { App } from "./app";
 
 export default DOM.create(App, undefined, "app", {
   extend: smbls.Box, // Make component a Box
-  context: { COMPONENTS: smbls },
+  context: { SYSTEM, COMPONENTS: smbls },
 });
