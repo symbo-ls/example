@@ -1,13 +1,14 @@
-'use strict'
+"use strict";
 
-import './config'
+import "./config";
 
-import DOM from 'domql'
-import 'domql/packages/emotion'
+import DOM from "domql";
+import "domql/packages/emotion";
 
-import * as smbls from 'smbls'
-import { App } from './app'
+import * as smbls from "smbls";
+import { App } from "./app";
 
-export default DOM.create(App, undefined, 'app', {
-  extend: smbls.Box // Make component a Box
-})
+export default DOM.create(App, undefined, "app", {
+  extend: smbls.Box, // Make component a Box
+  context: { COMPONENTS: smbls },
+});
