@@ -1,5 +1,5 @@
 # Symbols examples
-Example [Symbols](https://symbols.dev/) components.
+Example [Symbols](https://symbols.app/tutorial/default) components.
 
 Open in [Codesandbox](https://go.symbo.ls/example-codesandbox) | [VS Code](https://go.symbo.ls/example-vscode)
 
