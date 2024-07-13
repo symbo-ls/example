@@ -1,13 +1,9 @@
 'use strict'
 
-import './config'
-
-import DOM from 'domql'
-import 'domql/packages/emotion'
-
-import * as smbls from 'smbls'
+import { create } from 'smbls'
+import designSystem from './config'
 import { App } from './app'
 
-export default DOM.create(App, undefined, 'app', {
-  extend: smbls.Box // Make component a Box
+export default create(App, {
+  designSystem
 })

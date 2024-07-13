@@ -1,7 +1,5 @@
 'use strict'
 
-import { init } from 'smbls'
-
 const S3_BUCKET = 'https://symbols-fonts.s3.us-west-1.amazonaws.com'
 
 const AvenirLight = '/avenir/49c5f3e1-5867-4b1d-a843-2d07fa60d85d.woff2'
@@ -10,7 +8,6 @@ const AvenirMedium = '/avenir/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2'
 const AvenirDemiBold = '/avenir/6afe4676-059a-4aa8-b891-29856bbcba22.woff2'
 const AvenirBold = '/avenir/14c73713-e4df-4dba-933b-057feeac8dd1.woff2'
 const AvenirHeavy = '/avenir/5c57b2e2-f641-421e-a95f-65fcb47e409a.woff2'
-
 
 /**
  * Colors
@@ -47,7 +44,7 @@ const COLOR = {
   gray9: '#BDBDC1',
   gray10: '#cfcfd1',
   gray11: '#e0e0e2',
-  gray12: '#e9e9ea',
+  gray12: '#e9e9ea'
 }
 
 /**
@@ -266,7 +263,7 @@ const SPACING = {
   }
 }
 
-init({
+export default {
   COLOR,
   GRADIENT,
   THEME,
@@ -274,4 +271,4 @@ init({
   SPACING,
   FONT,
   FONT_FAMILY
-})
+}

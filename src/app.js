@@ -1,10 +1,9 @@
 'use strict'
 
-import { Flex } from 'smbls'
 import { Card } from './Card'
 
 export const App = {
-  extend: Flex,
+  extend: 'Flex',
 
   props: {
     width: '100%',
@@ -13,5 +12,5 @@ export const App = {
     flexAlign: 'center center'
   },
 
-  card: { extend: Card }
+  Card: { extend: Card }
 }
