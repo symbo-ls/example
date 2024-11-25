@@ -12,5 +12,5 @@ export const App = {
     flexAlign: 'center center'
   },
 
-  Card: { extend: Card }
+  Card
 }
