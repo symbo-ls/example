@@ -1,17 +1,17 @@
 'use strict'
 
-import { Flex, Button } from 'smbls'
+import { Flex } from 'smbls'
 
 /**
  * Creating a component
- * @tutorial https://docs.symbols.app/components
- * @tutorial https://docs.symbols.app/atoms
- * @tutorial https://docs.symbols.app/composition
+ * @tutorial https://symbols.app/components
+ * @tutorial https://symbols.app/atoms
+ * @tutorial https://symbols.app/composition
  */
 
 /**
  * Component composition
- * @tutorial https://docs.symbols.app/composition
+ * @tutorial https://symbols.app/composition
  */
 export const Card = {
   extend: Flex,
@@ -19,7 +19,7 @@ export const Card = {
 
   /**
    * Properties
-   * @tutorial https://docs.symbols.app/props
+   * @tutorial https://symbols.app/props
    */
   props: {
     flow: 'column',
@@ -42,33 +42,27 @@ export const Card = {
 
   /**
    * Atoms
-   * @tutorial https://docs.symbols.app/atoms
+   * @tutorial https://symbols.app/atoms
    */
-  caption: {
-    props: { color: 'gray 1 +85' },
+  Caption: {
+    color: 'gray 1 +85',
     text: 'Incremental Number'
   },
 
-  title: {
-    tag: 'h2',
-    props: { margin: '0 0 B1' },
+  H2: {
+    margin: '0 0 B1',
     text: ({ state }) => state.active
   },
 
-  button: {
-    extend: Button,
-    props: {
-      fontSize: 'A',
-      theme: 'primary',
-      padding: 'Z2 B2',
-      round: 'B2',
-      margin: '-X2'
-    },
+  Button: {
+    fontSize: 'A',
+    theme: 'primary',
+    padding: 'Z2 B2',
+    round: 'B2',
+    margin: '-X2',
     text: 'Increment',
-    on: {
-      click: (ev, element, state) => {
-        state.update({ active: state.active + 1 })
-      }
+    onClick: (event, element, state) => {
+      state.update({ active: state.active + 1 })
     }
   }
 }
